@@ -6,7 +6,7 @@ export const SlapsCounter = () => {
   const [minutes, setMinutes] = React.useState(0);
   const [seconds, setSeconds] = React.useState(0);
 
-  const deadline = "July, 10, 2023";
+  const deadline = "July, 11, 2023";
 
   const getTime = () => {
     const time = Date.parse(deadline) - Date.now();
